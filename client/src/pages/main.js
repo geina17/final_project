@@ -62,7 +62,7 @@ class Main extends React.Component {
               <div className="form-group">
                 <input
                   type="email"
-                  className={classnames("loginForm form-control", {
+                  className={classnames("form-control form-control-lg", {
                     "is-invalid": errors.email
                   })}
                   placeholder="Email"
@@ -77,7 +77,7 @@ class Main extends React.Component {
               <div className="form-group">
                 <input
                   type="password"
-                  className={classnames("loginForm form-control ", {
+                  className={classnames("form-control form-control-lg", {
                     "is-invalid": errors.password
                   })}
                   placeholder="Password"
