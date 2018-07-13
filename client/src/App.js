@@ -61,7 +61,7 @@ class App extends React.Component {
 
   render() {
     const { width } = this.state;
-    const isMobile = width <= 425;
+    const isMobile = width <= 400;
     if (isMobile) {
       return (
         <Provider store={store}>
